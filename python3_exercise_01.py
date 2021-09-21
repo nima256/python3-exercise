@@ -10,6 +10,3 @@ print(name)
 # output == nima
 print(age)
 # output == 15
-
-
-
