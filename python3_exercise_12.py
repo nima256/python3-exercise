@@ -1,5 +1,5 @@
 #hello
-# here computer guss you a number
+# here computer guess you a number
 
 print('Please think of a number between 0 and 1000!')
 low = 0
