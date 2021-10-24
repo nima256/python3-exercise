@@ -19,7 +19,7 @@ class levono:
         self.age = age
         self.laptop = laptop
         levono.number_of_buyers += 1
-        print(f"hello mr/ms thanks for choose us \nyour name is {name} and your last name is {last_name} \n your laptop is {laptop} you choose strong laptop")
+        print(f"hello mr/ms {name} thanks for choose us \nyour name is {name} and your last name is {last_name} \n your laptop is {laptop} you choose strong laptop")
     # color method that choose a laptop color
     def color_of_laptop(self):
         laptop_color = int(input("what color do you want to your laptop be?  1 = white , 2 = black , 3 = blue , 4 = pink , 5 = yellow =>"))
@@ -203,7 +203,7 @@ class levono:
         else:
             print("you enter incorrect number ):")
         # error handling
-        while cool_pad != 1:
+        while cool_pad != 1 and cool_pad != 2:
             cool_pad = int(input("your laptop have two special option. second : cool pad we give you a perfect cool pad to your hardware do not hurt do you want to add this option for your laptop?  1 = yes , 2 = no =>"))
             if cool_pad == 1:
                 self.cool_pad = "yes"
@@ -225,7 +225,7 @@ class asus:
         self.age = age
         self.laptop = laptop
         levono.number_of_buyers += 1
-        print(f"hello mr/ms thanks for choose us \nyour name is {name} and your last name is {last_name} \n your laptop is {laptop} you choose popular laptop")
+        print(f"hello mr/ms {name} thanks for choose us \nyour name is {name} and your last name is {last_name} \n your laptop is {laptop} you choose popular laptop")
     # color method that choose a laptop color
     def color_of_laptop(self):
         laptop_color = int(input("what color do you want to your laptop be?  1 = white , 2 = black , 3 = blue , 4 = pink , 5 = yellow =>"))
@@ -468,7 +468,7 @@ class microsoft:
         self.age = age
         self.laptop = laptop
         levono.number_of_buyers += 1
-        print(f"hello mr/ms thanks for choose us \nyour name is {name} and your last name is {last_name} \n your laptop is {laptop} you choose expensive laptop")
+        print(f"hello mr/ms {name} thanks for choose us \nyour name is {name} and your last name is {last_name} \n your laptop is {laptop} you choose expensive laptop")
     # color method that choose a laptop color
     def color_of_laptop(self):
         laptop_color = int(input("what color do you want to your laptop be?  1 = white , 2 = black , 3 = blue , 4 = pink , 5 = yellow =>"))
@@ -695,7 +695,7 @@ print(buyer2.__dict__)
 
 print("\n\n\n")
 
-buyer3 = microsoft("dainyal" , "tajik" , 17 , microsoft)
+buyer3 = microsoft("dainyal" , "tajik" , 17 , "microsoft")
 print("\n")
 buyer3.color_of_laptop()
 print("\n")
