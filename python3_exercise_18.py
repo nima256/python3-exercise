@@ -62,7 +62,20 @@ dic = {
 , 'anniversary' : 'when you have relationship the first day that you see your partner that day is anniversary'
 , 'injury' : 'when your part of body damage called it injury'
 , 'intensive care' : 'a part of hospital that when somebody is very ill take him/her to there'
-, 'license plates' : 'a number for your car that is infront of it and behind it'}
+, 'license plates' : 'a number for your car that is infront of it and behind it'
+, 'nightmare' : 'a very frightening dream'
+, 'security' : 'a person or thing that keep or look after something'
+, 'delay' : 'when something does not happen and you have to wait for it'
+, 'faciliti' : 'a special part of a piece of equipment'
+, 'indoor' : 'inside building'
+, 'dozen' : 'a group ir set if twelve'
+, 'treatment' : 'care about your skin'
+, 'entetain' : 'provide someone with enjoyment things'
+, 'medical' : 'doctors equipment'
+, 'laundry' : ' a place or business where clothes etc are washed and ironed'
+, 'schedule' : 'program'
+}
+
 # put synonym in dictionry
 syn = {
 'experiment' : 'TEST' , 'sociable' : 'FRIENDLY' , 'get along' : 'BE FRIENDLY'
@@ -77,14 +90,18 @@ syn = {
 , 'approximately' : 'ROUGHLY' , 'aim' : 'OBJECT' , 'separate' : 'APART'
 , 'infidelity' : 'UNFAITHFULNESS' , 'sight seeing' : 'BEAUTIFUL VIEW'
 , 'murder' : 'KILLING' , 'irritate' : 'ANNOY' , 'jealous' : 'ENVIOUS'
-, 'notice' : 'CARE' , 'injury' : 'HURT'}
+, 'notice' : 'CARE' , 'injury' : 'HURT' , 'nightmare' : 'MARE'
+, 'security' : 'SAFETLY' , 'delay' : 'LATE' , 'faciliti' : 'EQUIPMENT'
+, 'indoor' : 'INTERNAL'
+}
 # put antonym in dictionary
 ant = {
 'sociable' : 'UNSOCIABLE' , 'get along' : 'ARGUE' , 'sence of humor' : 'SERIOUS'
 , 'compatible' : 'UNSUITABLE' , 'paradise' : 'HELL' , 'announce' : 'CONCEAL'
 , 'emotional' : 'low feeling' , 'aristocrat' : 'low class' , 'approximately' : 'precisely'
 , 'separate' : 'NEAR' , 'divorce' : 'MARRIED' , 'infidelity' : 'FIDELITY'
-, 'jealous' : 'UNENVIOUS'}
+, 'jealous' : 'UNENVIOUS' , 'security' : 'DANGER' , 'delay' : 'EARLY'
+}
 
 # if user type dic
 if Input == "dic":
